@@ -3,6 +3,7 @@ import '../assets/css/compo.css'
 import Profile from './Profile';
 export default function StudentTable(props){
     const [stu,setStu] = useState(props.students[0]);
+    
     return(
 
         <div className="outerDiv">
