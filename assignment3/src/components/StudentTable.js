@@ -1,5 +1,5 @@
 import {useState} from'react'
-import '../assest/css/compo.css'
+import '../assets/css/compo.css'
 import Profile from './Profile';
 export default function StudentTable(props){
     const [stu,setStu] = useState(props.students[0]);
